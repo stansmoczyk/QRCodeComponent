@@ -1,13 +1,39 @@
-.attribution { 
-    font-size: 11px;
-    text-align: center; 
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Roboto', sans-serif;
+}
+P{
+    font-size: 15PX;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    
 }
 
-    .attribution a { 
-    color: hsl(228, 45%, 44%); 
+.cardHolder{
+    position: fixed;
+    top: 15%;
+    left: 38%;
 }
 
-#card{
-    display: flex;
-    justify-content: center;
+h3{
+    font-weight: 700;
+}
+
+.wording{
+    padding: 25px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20PX;
+    border-radius: 20px;
 }
