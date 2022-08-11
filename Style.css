@@ -3,11 +3,21 @@ body{
     background-color: hsl(212, 45%, 89%);
     font-family: 'Roboto', sans-serif;
 }
+
 P{
     font-size: 15PX;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     
+}
+
+img{
+    border-radius: 20px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .cardHolder{
@@ -16,17 +26,8 @@ P{
     left: 38%;
 }
 
-h3{
-    font-weight: 700;
-    font-size: 1.5em;
-}
-
 .wording{
     padding: 15px;
-}
-
-img{
-    border-radius: 20px;
 }
 
 .card{
